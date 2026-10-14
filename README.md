@@ -30,7 +30,7 @@ Rather than reproducing my full CV, the site highlights selected work and gives 
 - **Responsive design** for desktop, tablet and mobile layouts
 - **Introduction and career focus** with links to professional profiles
 - **Technical expertise** across backend development, APIs, cloud, databases, security and mobile development
-- **Featured project summaries** for HustleHub+, GLMS, EventEase and Smart-X IoT
+- **Five independent public projects** with live demo and source links, plus academic summaries of HustleHub+, GLMS, EventEase and Smart-X IoT
 - **Experience and education** including Swiss Hotel School South Africa work-integrated learning
 - **Achievements and development** including Golden Key membership and academic milestones
 - **Contact section** with email, LinkedIn and GitHub links
@@ -53,7 +53,7 @@ Rather than reproducing my full CV, the site highlights selected work and gives 
 
 ```text
 developer-portfolio/
-├── index.html    # Content and page structure
+├── images/       # Professional portrait\n├── index.html    # Content and page structure
 ├── styles.css    # Layout, visual design and responsiveness
 ├── script.js     # Mobile navigation and dynamic footer year
 └── README.md     # Project documentation
@@ -85,7 +85,19 @@ This website is deployed through **GitHub Pages** from the `main` branch.
 
 To set up Pages on a fork, open **Settings → Pages**, select **Deploy from a branch**, choose `main` and `/(root)`, and save. GitHub Pages will publish the static site after its deployment completes.
 
-## Featured engineering work
+## Five independent portfolio projects
+
+| Project | Technology and focus | Demo | Source |
+| --- | --- | --- | --- |
+| **Developer Portfolio** | HTML, CSS, JavaScript · professional website | [Live site](https://st10458151.github.io/developer-portfolio/) | [GitHub](https://github.com/ST10458151/developer-portfolio) |
+| **TaskFlow** | JavaScript, localStorage · productivity and task management | [Live app](https://st10458151.github.io/taskflow/) | [GitHub](https://github.com/ST10458151/taskflow) |
+| **SkyCast** | JavaScript, Open-Meteo API · weather forecasting | [Live app](https://st10458151.github.io/skycast-weather/) | [GitHub](https://github.com/ST10458151/skycast-weather) |
+| **BookNest** | C#, ASP.NET Core MVC, EF Core, SQLite · full-stack reading tracker | Local .NET application | [GitHub & setup](https://github.com/ST10458151/booknest) |
+| **The Confidential Files** | JavaScript · interactive mystery investigation game | [Play game](https://st10458151.github.io/the-confidential-files/) | [GitHub](https://github.com/ST10458151/the-confidential-files) |
+
+**Note:** BookNest runs locally because GitHub Pages does not host ASP.NET Core server-side applications. GitHub Pages links refer to the published static projects.
+
+## Featured academic engineering work
 
 | Project | Focus |
 | --- | --- |
@@ -99,7 +111,7 @@ These are academic or collaborative projects. **Some original university reposit
 ## Future improvements
 
 - Add screenshots or visual case studies for featured projects
-- Link new independently built public projects
+- Add screenshot case studies and walkthroughs for the new independently built public projects
 - Improve accessibility based on testing and feedback
 - Add a downloadable, up-to-date CV when ready
 
